@@ -2,7 +2,7 @@
 
 Fix Ngrok 2019 : )
 
-pkg install git
+pkg install git wget -y
 
 git clone https://github.com/PlusX4/Fix-Ngrok
 
